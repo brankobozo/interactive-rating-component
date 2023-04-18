@@ -1,0 +1,88 @@
+.rating {
+  max-width: 340px;
+  height: 340px;
+  padding: 3em;
+  border-radius: 2em;
+  background-color: $darkBlue;
+  &__icon {
+    background-color: $mediumGrey;
+    padding: 1em;
+    border-radius: 50%;
+  }
+  h3 {
+    font-weight: $fontWeightBold;
+    font-size: 1.75rem;
+    margin-block: 1em 0.5em;
+  }
+  p {
+    color: $lightGrey;
+    margin-block: 0;
+
+    &.rating__selected {
+      display: inline-block;
+      margin-block-start: 1.75em;
+      padding: 0.5em 1em;
+      color: $primaryColor;
+      background-color: $mediumGrey;
+      border-radius: 2em;
+      line-height: 1em;
+    }
+  }
+
+  &__radiogroup {
+    list-style-type: none;
+    padding: 0;
+    margin-block: 2em 2em;
+    display: flex;
+    justify-content: space-between;
+    li {
+      input {
+        display: none;
+      }
+      label {
+        display: block;
+        width: 55px;
+        height: 55px;
+        background-color: $mediumGrey;
+        border-radius: 50%;
+        line-height: 55px;
+        text-align: center;
+        cursor: pointer;
+
+        &:hover {
+          background-color: $lightGrey;
+        }
+      }
+    }
+  }
+  &--result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+input[type="radio"]:checked + label {
+  background-color: $primaryColor;
+}
+
+.btn--submit {
+  display: block;
+  width: 100%;
+  padding-block: 0.875em;
+  border: 0;
+  border-radius: 4em;
+  background-color: $primaryColor;
+  color: $white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+  &:hover {
+    background-color: $white;
+    color: $primaryColor;
+  }
+}
+.isHidden {
+  display: none;
+}

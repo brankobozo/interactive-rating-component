@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+:root {
+  font-size: $defaultFontSize;
+}
+body {
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  background-color: $veryDarkBlue;
+  color: $white;
+  font-family: $fontFamily;
+}
+
+/* Utilities
+   ========================================================================== */
+.text-center {
+  text-align: center !important;
+}
