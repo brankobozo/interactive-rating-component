@@ -11,15 +11,15 @@ Challenge is to build out interactive rating component and get it looking as clo
 - [Code](https://github.com/brankobozo/interactive-rating-component)
 - [live](https://brankobozo.github.io/interactive-rating-component/)
 
-## Screenshot
-
-![picture alt](images/screenshots/desktop.png "Interactive rating component screenshot")
-![picture alt](images/screenshots/active-state.png "Interactive rating component active state screenshot")
-![picture alt](images/screenshots/submited-state.png "Interactive rating component submited state screenshot")
-
 ## Tools
 
 - Semantic HTML5 markup
 - SCSS
 - Flexbox
 - JS
+
+## Screenshots
+
+![picture alt](images/screenshots/desktop.png "Interactive rating component screenshot")
+![picture alt](images/screenshots/active-state.png "Interactive rating component active state screenshot")
+![picture alt](images/screenshots/submited-state.png "Interactive rating component submited state screenshot")
